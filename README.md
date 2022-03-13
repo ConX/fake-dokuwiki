@@ -8,7 +8,7 @@
 
 ---
 
-<p align="center"> Deploy a DokuWiki with fake pages, namespaces, and users for testing.
+<p align="center"> Deploy a DokuWiki with fake pages, namespaces, and users for testing purposes.
     <br> 
 </p>
 
