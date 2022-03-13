@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag fake-dokuwiki
+      run: docker build . --file Dockerfile --tag ${{secrets.DOCKER_USER}}/fake-dokuwiki
     - name: Publish the Docker image
       env:
         DOCKER_USER: ${{secrets.DOCKER_USER}}
