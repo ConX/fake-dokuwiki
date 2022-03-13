@@ -52,5 +52,6 @@ docker-compose up -d
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
+- [@splitbrain](https://github.com/splitbrain/): For the [dwpage](https://github.com/splitbrain/dokuwiki/blob/master/bin/dwpage.php) CLI plugin script based on which the `gen-fake-wiki.php` was created
 - [linuxserver.io](https://www.linuxserver.io/): For providing the [base image](https://hub.docker.com/r/linuxserver/dokuwiki) for this project
 - [FakerPHP](https://fakerphp.github.io/): For the excellent PHP library that powers the generation of fake data for this project

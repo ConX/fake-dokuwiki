@@ -15,7 +15,6 @@ require_once '/opt/vendor/autoload.php';
  */
 class PageCLI extends CLI
 {
-
     protected $force = false;
     protected $username = '';
 
