@@ -1,0 +1,19 @@
+version: "2.1"
+services:
+  fake-dokuwiki:
+    build:
+      context: .
+      args:
+        - FAKE_DW_PAGES=100
+        - FAKE_DW_USERS=10
+        - FAKE_DW_NAMESPACES=3
+    container_name: fake-dokuwiki
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+    volumes:
+      - ./files/:/config
+    ports:
+      - 8101:80
+    restart: unless-stopped
